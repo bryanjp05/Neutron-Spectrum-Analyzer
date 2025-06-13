@@ -1,0 +1,16 @@
+# OpenMC simulation outputs
+*.h5
+*.out
+*.xml
+
+# Python cache and logs
+__pycache__/
+*.pyc
+*.log
+
+# OS-specific files
+.DS_Store
+
+# Results directory (optional, if it’s large or regenerable)
+results/
+
