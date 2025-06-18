@@ -9,16 +9,16 @@ from neutron_spectrum_analyzer.tallies import create_tallies
 
 if __name__ == "__main__":
     materials = create_materials()
-    geometry, fuel_cell = create_geometry(materials)
+    geometry, fuel_cells = create_geometry(materials)
     settings = create_settings()
-    tallies = create_tallies(fuel_cell)
+    tallies = create_tallies(fuel_cells)
 
     # Export everything
     openmc.Materials(list(materials.values())).export_to_xml()
     geometry.export_to_xml()
     settings.export_to_xml()
 
-    tallies = create_tallies(fuel_cell)
+    tallies = create_tallies(fuel_cells)
     tallies.export_to_xml()
 
     openmc.run()
