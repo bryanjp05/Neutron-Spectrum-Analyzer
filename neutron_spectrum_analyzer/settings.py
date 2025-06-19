@@ -5,7 +5,7 @@ def create_settings():
     settings.run_mode = 'eigenvalue'
     settings.batches = 50
     settings.inactive = 10
-    settings.particles = 1000
+    settings.particles = 10000
     settings.max_events = 100
 
     # Source

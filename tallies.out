@@ -1,66 +1,1771 @@
- ====================>     TALLY 3: FLUX SPECTRUM     <=====================
+ ====================>     TALLY 4: FLUX SPECTRUM     <=====================
 
- Cell 1
+ Cell 4
    Incoming Energy [1e-05, 0.001)
      Total Material
-       Flux                                 0.000196566 +/- 4.77991e-05
+       Flux                                 0.000116898 +/- 1.18708e-05
    Incoming Energy [0.001, 0.1)
      Total Material
-       Flux                                 0.645981 +/- 0.00729593
+       Flux                                 0.443756 +/- 0.00184044
    Incoming Energy [0.1, 1)
      Total Material
-       Flux                                 0.427738 +/- 0.00488289
+       Flux                                 0.334365 +/- 0.00110778
    Incoming Energy [1, 10)
      Total Material
-       Flux                                 0.37085 +/- 0.00359123
+       Flux                                 0.304981 +/- 0.00118551
    Incoming Energy [10, 100)
      Total Material
-       Flux                                 0.410934 +/- 0.00490781
+       Flux                                 0.34899 +/- 0.00101273
    Incoming Energy [100, 1000)
      Total Material
-       Flux                                 0.481265 +/- 0.00423545
+       Flux                                 0.415131 +/- 0.0014206
    Incoming Energy [1000, 10000)
      Total Material
-       Flux                                 0.539244 +/- 0.00579076
+       Flux                                 0.46977 +/- 0.00143428
    Incoming Energy [10000, 100000)
      Total Material
-       Flux                                 0.717153 +/- 0.0054121
+       Flux                                 0.622233 +/- 0.00156452
    Incoming Energy [100000, 1000000)
      Total Material
-       Flux                                 1.83644 +/- 0.0105195
+       Flux                                 1.6378 +/- 0.00360835
    Incoming Energy [1000000, 10000000)
      Total Material
-       Flux                                 2.08007 +/- 0.0136854
- =====================>     TALLY 4: FISSION-RATE     <=====================
+       Flux                                 1.85571 +/- 0.00424173
+ ====================>     TALLY 5: 17X17 FLUX MAP     <====================
 
- Cell 1
-   Incoming Energy [1e-05, 0.001)
-     Total Material
-       Fission Rate                         0.000595519 +/- 0.000148801
-   Incoming Energy [0.001, 0.1)
-     Total Material
-       Fission Rate                         0.243087 +/- 0.00274236
-   Incoming Energy [0.1, 1)
-     Total Material
-       Fission Rate                         0.0513811 +/- 0.000581044
-   Incoming Energy [1, 10)
-     Total Material
-       Fission Rate                         0.00926389 +/- 0.000158489
-   Incoming Energy [10, 100)
-     Total Material
-       Fission Rate                         0.0123737 +/- 0.000214472
-   Incoming Energy [100, 1000)
-     Total Material
-       Fission Rate                         0.00593583 +/- 7.0716e-05
-   Incoming Energy [1000, 10000)
-     Total Material
-       Fission Rate                         0.00211578 +/- 2.23112e-05
-   Incoming Energy [10000, 100000)
-     Total Material
-       Fission Rate                         0.00114402 +/- 8.3542e-06
-   Incoming Energy [100000, 1000000)
-     Total Material
-       Fission Rate                         0.00184345 +/- 1.10297e-05
-   Incoming Energy [1000000, 10000000)
-     Total Material
-       Fission Rate                         0.0239232 +/- 0.000188614
+ Mesh Index (1, 1, 1)
+   Total Material
+     Flux                                 0.0575935 +/- 0.000708178
+ Mesh Index (2, 1, 1)
+   Total Material
+     Flux                                 0.0576927 +/- 0.000738114
+ Mesh Index (3, 1, 1)
+   Total Material
+     Flux                                 0.0610585 +/- 0.000688772
+ Mesh Index (4, 1, 1)
+   Total Material
+     Flux                                 0.0690056 +/- 0.000808813
+ Mesh Index (5, 1, 1)
+   Total Material
+     Flux                                 0.0736325 +/- 0.000690623
+ Mesh Index (6, 1, 1)
+   Total Material
+     Flux                                 0.0777994 +/- 0.000755966
+ Mesh Index (7, 1, 1)
+   Total Material
+     Flux                                 0.0813785 +/- 0.000889059
+ Mesh Index (8, 1, 1)
+   Total Material
+     Flux                                 0.0816962 +/- 0.000862775
+ Mesh Index (9, 1, 1)
+   Total Material
+     Flux                                 0.0834891 +/- 0.00072409
+ Mesh Index (10, 1, 1)
+   Total Material
+     Flux                                 0.082751 +/- 0.000872944
+ Mesh Index (11, 1, 1)
+   Total Material
+     Flux                                 0.0811411 +/- 0.000911297
+ Mesh Index (12, 1, 1)
+   Total Material
+     Flux                                 0.080113 +/- 0.000749293
+ Mesh Index (13, 1, 1)
+   Total Material
+     Flux                                 0.0769974 +/- 0.00064404
+ Mesh Index (14, 1, 1)
+   Total Material
+     Flux                                 0.0713621 +/- 0.000770414
+ Mesh Index (15, 1, 1)
+   Total Material
+     Flux                                 0.062065 +/- 0.000739242
+ Mesh Index (16, 1, 1)
+   Total Material
+     Flux                                 0.0586332 +/- 0.00079787
+ Mesh Index (17, 1, 1)
+   Total Material
+     Flux                                 0.0575936 +/- 0.000799545
+ Mesh Index (1, 2, 1)
+   Total Material
+     Flux                                 0.0577055 +/- 0.000658589
+ Mesh Index (2, 2, 1)
+   Total Material
+     Flux                                 0.0584304 +/- 0.000666848
+ Mesh Index (3, 2, 1)
+   Total Material
+     Flux                                 0.061974 +/- 0.000657959
+ Mesh Index (4, 2, 1)
+   Total Material
+     Flux                                 0.0703289 +/- 0.000713693
+ Mesh Index (5, 2, 1)
+   Total Material
+     Flux                                 0.0748423 +/- 0.00069359
+ Mesh Index (6, 2, 1)
+   Total Material
+     Flux                                 0.0776162 +/- 0.00056665
+ Mesh Index (7, 2, 1)
+   Total Material
+     Flux                                 0.0803137 +/- 0.000531075
+ Mesh Index (8, 2, 1)
+   Total Material
+     Flux                                 0.0819507 +/- 0.000710973
+ Mesh Index (9, 2, 1)
+   Total Material
+     Flux                                 0.0826482 +/- 0.000787853
+ Mesh Index (10, 2, 1)
+   Total Material
+     Flux                                 0.0803127 +/- 0.000846158
+ Mesh Index (11, 2, 1)
+   Total Material
+     Flux                                 0.0813108 +/- 0.000887617
+ Mesh Index (12, 2, 1)
+   Total Material
+     Flux                                 0.0794874 +/- 0.000751737
+ Mesh Index (13, 2, 1)
+   Total Material
+     Flux                                 0.0768578 +/- 0.000748634
+ Mesh Index (14, 2, 1)
+   Total Material
+     Flux                                 0.0721402 +/- 0.000742574
+ Mesh Index (15, 2, 1)
+   Total Material
+     Flux                                 0.0636494 +/- 0.000725365
+ Mesh Index (16, 2, 1)
+   Total Material
+     Flux                                 0.0605691 +/- 0.000732448
+ Mesh Index (17, 2, 1)
+   Total Material
+     Flux                                 0.0602545 +/- 0.000692308
+ Mesh Index (1, 3, 1)
+   Total Material
+     Flux                                 0.0604638 +/- 0.000743388
+ Mesh Index (2, 3, 1)
+   Total Material
+     Flux                                 0.0616458 +/- 0.000586879
+ Mesh Index (3, 3, 1)
+   Total Material
+     Flux                                 0.0651185 +/- 0.000527689
+ Mesh Index (4, 3, 1)
+   Total Material
+     Flux                                 0.0722362 +/- 0.000543343
+ Mesh Index (5, 3, 1)
+   Total Material
+     Flux                                 0.0765304 +/- 0.000653926
+ Mesh Index (6, 3, 1)
+   Total Material
+     Flux                                 0.0785295 +/- 0.000610651
+ Mesh Index (7, 3, 1)
+   Total Material
+     Flux                                 0.0801532 +/- 0.00073632
+ Mesh Index (8, 3, 1)
+   Total Material
+     Flux                                 0.0809765 +/- 0.000663906
+ Mesh Index (9, 3, 1)
+   Total Material
+     Flux                                 0.0814496 +/- 0.00074763
+ Mesh Index (10, 3, 1)
+   Total Material
+     Flux                                 0.0805839 +/- 0.0007787
+ Mesh Index (11, 3, 1)
+   Total Material
+     Flux                                 0.0803659 +/- 0.000568535
+ Mesh Index (12, 3, 1)
+   Total Material
+     Flux                                 0.079046 +/- 0.000593409
+ Mesh Index (13, 3, 1)
+   Total Material
+     Flux                                 0.0778788 +/- 0.00067455
+ Mesh Index (14, 3, 1)
+   Total Material
+     Flux                                 0.0740373 +/- 0.000675425
+ Mesh Index (15, 3, 1)
+   Total Material
+     Flux                                 0.0665117 +/- 0.000609221
+ Mesh Index (16, 3, 1)
+   Total Material
+     Flux                                 0.0643743 +/- 0.000709508
+ Mesh Index (17, 3, 1)
+   Total Material
+     Flux                                 0.0631086 +/- 0.00075773
+ Mesh Index (1, 4, 1)
+   Total Material
+     Flux                                 0.0690719 +/- 0.000621642
+ Mesh Index (2, 4, 1)
+   Total Material
+     Flux                                 0.0691376 +/- 0.000542462
+ Mesh Index (3, 4, 1)
+   Total Material
+     Flux                                 0.0724566 +/- 0.000655726
+ Mesh Index (4, 4, 1)
+   Total Material
+     Flux                                 0.0750932 +/- 0.000666058
+ Mesh Index (5, 4, 1)
+   Total Material
+     Flux                                 0.0763424 +/- 0.000739206
+ Mesh Index (6, 4, 1)
+   Total Material
+     Flux                                 0.0788321 +/- 0.000809381
+ Mesh Index (7, 4, 1)
+   Total Material
+     Flux                                 0.080904 +/- 0.000635335
+ Mesh Index (8, 4, 1)
+   Total Material
+     Flux                                 0.0806299 +/- 0.000723118
+ Mesh Index (9, 4, 1)
+   Total Material
+     Flux                                 0.0811243 +/- 0.000711778
+ Mesh Index (10, 4, 1)
+   Total Material
+     Flux                                 0.0794486 +/- 0.000889403
+ Mesh Index (11, 4, 1)
+   Total Material
+     Flux                                 0.0791789 +/- 0.000554712
+ Mesh Index (12, 4, 1)
+   Total Material
+     Flux                                 0.0785816 +/- 0.00073397
+ Mesh Index (13, 4, 1)
+   Total Material
+     Flux                                 0.0784377 +/- 0.000688727
+ Mesh Index (14, 4, 1)
+   Total Material
+     Flux                                 0.076747 +/- 0.000683988
+ Mesh Index (15, 4, 1)
+   Total Material
+     Flux                                 0.0738051 +/- 0.000707108
+ Mesh Index (16, 4, 1)
+   Total Material
+     Flux                                 0.0722398 +/- 0.000687071
+ Mesh Index (17, 4, 1)
+   Total Material
+     Flux                                 0.0714384 +/- 0.000885673
+ Mesh Index (1, 5, 1)
+   Total Material
+     Flux                                 0.0756478 +/- 0.000864185
+ Mesh Index (2, 5, 1)
+   Total Material
+     Flux                                 0.0752952 +/- 0.000659577
+ Mesh Index (3, 5, 1)
+   Total Material
+     Flux                                 0.0756856 +/- 0.000661245
+ Mesh Index (4, 5, 1)
+   Total Material
+     Flux                                 0.0768072 +/- 0.000655969
+ Mesh Index (5, 5, 1)
+   Total Material
+     Flux                                 0.0783114 +/- 0.000776705
+ Mesh Index (6, 5, 1)
+   Total Material
+     Flux                                 0.0800771 +/- 0.000652079
+ Mesh Index (7, 5, 1)
+   Total Material
+     Flux                                 0.0787193 +/- 0.000566781
+ Mesh Index (8, 5, 1)
+   Total Material
+     Flux                                 0.0792038 +/- 0.000746774
+ Mesh Index (9, 5, 1)
+   Total Material
+     Flux                                 0.0781801 +/- 0.000737654
+ Mesh Index (10, 5, 1)
+   Total Material
+     Flux                                 0.0787399 +/- 0.000736626
+ Mesh Index (11, 5, 1)
+   Total Material
+     Flux                                 0.0773669 +/- 0.000602352
+ Mesh Index (12, 5, 1)
+   Total Material
+     Flux                                 0.0777386 +/- 0.000805179
+ Mesh Index (13, 5, 1)
+   Total Material
+     Flux                                 0.0788054 +/- 0.000714749
+ Mesh Index (14, 5, 1)
+   Total Material
+     Flux                                 0.0785499 +/- 0.000785171
+ Mesh Index (15, 5, 1)
+   Total Material
+     Flux                                 0.0782592 +/- 0.000721867
+ Mesh Index (16, 5, 1)
+   Total Material
+     Flux                                 0.076459 +/- 0.000771063
+ Mesh Index (17, 5, 1)
+   Total Material
+     Flux                                 0.07658 +/- 0.000847769
+ Mesh Index (1, 6, 1)
+   Total Material
+     Flux                                 0.0789758 +/- 0.000806387
+ Mesh Index (2, 6, 1)
+   Total Material
+     Flux                                 0.0784136 +/- 0.000765096
+ Mesh Index (3, 6, 1)
+   Total Material
+     Flux                                 0.0789466 +/- 0.000731596
+ Mesh Index (4, 6, 1)
+   Total Material
+     Flux                                 0.0782695 +/- 0.000615724
+ Mesh Index (5, 6, 1)
+   Total Material
+     Flux                                 0.078225 +/- 0.000714471
+ Mesh Index (6, 6, 1)
+   Total Material
+     Flux                                 0.0786605 +/- 0.000652874
+ Mesh Index (7, 6, 1)
+   Total Material
+     Flux                                 0.0764435 +/- 0.000638497
+ Mesh Index (8, 6, 1)
+   Total Material
+     Flux                                 0.0756563 +/- 0.000672012
+ Mesh Index (9, 6, 1)
+   Total Material
+     Flux                                 0.0757843 +/- 0.000798564
+ Mesh Index (10, 6, 1)
+   Total Material
+     Flux                                 0.0763127 +/- 0.000647044
+ Mesh Index (11, 6, 1)
+   Total Material
+     Flux                                 0.0764759 +/- 0.00070666
+ Mesh Index (12, 6, 1)
+   Total Material
+     Flux                                 0.077677 +/- 0.000845237
+ Mesh Index (13, 6, 1)
+   Total Material
+     Flux                                 0.0784223 +/- 0.00068477
+ Mesh Index (14, 6, 1)
+   Total Material
+     Flux                                 0.0791772 +/- 0.000587598
+ Mesh Index (15, 6, 1)
+   Total Material
+     Flux                                 0.0790896 +/- 0.000696586
+ Mesh Index (16, 6, 1)
+   Total Material
+     Flux                                 0.078495 +/- 0.000728808
+ Mesh Index (17, 6, 1)
+   Total Material
+     Flux                                 0.0783966 +/- 0.000877261
+ Mesh Index (1, 7, 1)
+   Total Material
+     Flux                                 0.0801088 +/- 0.000780523
+ Mesh Index (2, 7, 1)
+   Total Material
+     Flux                                 0.0802865 +/- 0.000759052
+ Mesh Index (3, 7, 1)
+   Total Material
+     Flux                                 0.0797834 +/- 0.000678213
+ Mesh Index (4, 7, 1)
+   Total Material
+     Flux                                 0.0789341 +/- 0.000703002
+ Mesh Index (5, 7, 1)
+   Total Material
+     Flux                                 0.0785246 +/- 0.000749727
+ Mesh Index (6, 7, 1)
+   Total Material
+     Flux                                 0.0779062 +/- 0.000572065
+ Mesh Index (7, 7, 1)
+   Total Material
+     Flux                                 0.0758353 +/- 0.000681436
+ Mesh Index (8, 7, 1)
+   Total Material
+     Flux                                 0.0711142 +/- 0.000718774
+ Mesh Index (9, 7, 1)
+   Total Material
+     Flux                                 0.0695063 +/- 0.000700515
+ Mesh Index (10, 7, 1)
+   Total Material
+     Flux                                 0.0717485 +/- 0.000634923
+ Mesh Index (11, 7, 1)
+   Total Material
+     Flux                                 0.0744804 +/- 0.000734687
+ Mesh Index (12, 7, 1)
+   Total Material
+     Flux                                 0.077177 +/- 0.000759787
+ Mesh Index (13, 7, 1)
+   Total Material
+     Flux                                 0.0786079 +/- 0.00079299
+ Mesh Index (14, 7, 1)
+   Total Material
+     Flux                                 0.0789429 +/- 0.000673661
+ Mesh Index (15, 7, 1)
+   Total Material
+     Flux                                 0.0803417 +/- 0.000592146
+ Mesh Index (16, 7, 1)
+   Total Material
+     Flux                                 0.0802833 +/- 0.000753682
+ Mesh Index (17, 7, 1)
+   Total Material
+     Flux                                 0.0815081 +/- 0.000912703
+ Mesh Index (1, 8, 1)
+   Total Material
+     Flux                                 0.0814981 +/- 0.000817568
+ Mesh Index (2, 8, 1)
+   Total Material
+     Flux                                 0.0819565 +/- 0.000587688
+ Mesh Index (3, 8, 1)
+   Total Material
+     Flux                                 0.0805197 +/- 0.00079636
+ Mesh Index (4, 8, 1)
+   Total Material
+     Flux                                 0.0795064 +/- 0.000796609
+ Mesh Index (5, 8, 1)
+   Total Material
+     Flux                                 0.0778062 +/- 0.000788615
+ Mesh Index (6, 8, 1)
+   Total Material
+     Flux                                 0.0763604 +/- 0.000670403
+ Mesh Index (7, 8, 1)
+   Total Material
+     Flux                                 0.0722967 +/- 0.000613311
+ Mesh Index (8, 8, 1)
+   Total Material
+     Flux                                 0.0649124 +/- 0.000467406
+ Mesh Index (9, 8, 1)
+   Total Material
+     Flux                                 0.0554416 +/- 0.000489918
+ Mesh Index (10, 8, 1)
+   Total Material
+     Flux                                 0.0651697 +/- 0.000540994
+ Mesh Index (11, 8, 1)
+   Total Material
+     Flux                                 0.0709444 +/- 0.000538867
+ Mesh Index (12, 8, 1)
+   Total Material
+     Flux                                 0.0751824 +/- 0.000765844
+ Mesh Index (13, 8, 1)
+   Total Material
+     Flux                                 0.0777719 +/- 0.00070092
+ Mesh Index (14, 8, 1)
+   Total Material
+     Flux                                 0.0802055 +/- 0.000620741
+ Mesh Index (15, 8, 1)
+   Total Material
+     Flux                                 0.0799109 +/- 0.000742185
+ Mesh Index (16, 8, 1)
+   Total Material
+     Flux                                 0.0804201 +/- 0.000864631
+ Mesh Index (17, 8, 1)
+   Total Material
+     Flux                                 0.0808656 +/- 0.000822399
+ Mesh Index (1, 9, 1)
+   Total Material
+     Flux                                 0.0826417 +/- 0.000970387
+ Mesh Index (2, 9, 1)
+   Total Material
+     Flux                                 0.0824506 +/- 0.000775126
+ Mesh Index (3, 9, 1)
+   Total Material
+     Flux                                 0.081326 +/- 0.000511925
+ Mesh Index (4, 9, 1)
+   Total Material
+     Flux                                 0.0806486 +/- 0.000859849
+ Mesh Index (5, 9, 1)
+   Total Material
+     Flux                                 0.0791402 +/- 0.000718699
+ Mesh Index (6, 9, 1)
+   Total Material
+     Flux                                 0.0765976 +/- 0.000770387
+ Mesh Index (7, 9, 1)
+   Total Material
+     Flux                                 0.0704837 +/- 0.000666935
+ Mesh Index (8, 9, 1)
+   Total Material
+     Flux                                 0.0552348 +/- 0.000508851
+ Mesh Index (9, 9, 1)
+   Total Material
+     Flux                                 0.0516271 +/- 0.000543666
+ Mesh Index (10, 9, 1)
+   Total Material
+     Flux                                 0.0556499 +/- 0.000523033
+ Mesh Index (11, 9, 1)
+   Total Material
+     Flux                                 0.0693826 +/- 0.000549014
+ Mesh Index (12, 9, 1)
+   Total Material
+     Flux                                 0.0746301 +/- 0.00057207
+ Mesh Index (13, 9, 1)
+   Total Material
+     Flux                                 0.0774538 +/- 0.000716353
+ Mesh Index (14, 9, 1)
+   Total Material
+     Flux                                 0.0808819 +/- 0.000627122
+ Mesh Index (15, 9, 1)
+   Total Material
+     Flux                                 0.0809113 +/- 0.000918748
+ Mesh Index (16, 9, 1)
+   Total Material
+     Flux                                 0.0811546 +/- 0.000687346
+ Mesh Index (17, 9, 1)
+   Total Material
+     Flux                                 0.0818982 +/- 0.000919142
+ Mesh Index (1, 10, 1)
+   Total Material
+     Flux                                 0.0814595 +/- 0.00101275
+ Mesh Index (2, 10, 1)
+   Total Material
+     Flux                                 0.0826164 +/- 0.000802673
+ Mesh Index (3, 10, 1)
+   Total Material
+     Flux                                 0.0804379 +/- 0.00063351
+ Mesh Index (4, 10, 1)
+   Total Material
+     Flux                                 0.0806669 +/- 0.000663558
+ Mesh Index (5, 10, 1)
+   Total Material
+     Flux                                 0.0791788 +/- 0.000733158
+ Mesh Index (6, 10, 1)
+   Total Material
+     Flux                                 0.0756433 +/- 0.000698924
+ Mesh Index (7, 10, 1)
+   Total Material
+     Flux                                 0.0727442 +/- 0.000640635
+ Mesh Index (8, 10, 1)
+   Total Material
+     Flux                                 0.065514 +/- 0.000473368
+ Mesh Index (9, 10, 1)
+   Total Material
+     Flux                                 0.0557249 +/- 0.000448673
+ Mesh Index (10, 10, 1)
+   Total Material
+     Flux                                 0.0638609 +/- 0.000605345
+ Mesh Index (11, 10, 1)
+   Total Material
+     Flux                                 0.0714922 +/- 0.000677657
+ Mesh Index (12, 10, 1)
+   Total Material
+     Flux                                 0.0750238 +/- 0.000676599
+ Mesh Index (13, 10, 1)
+   Total Material
+     Flux                                 0.0787795 +/- 0.000687241
+ Mesh Index (14, 10, 1)
+   Total Material
+     Flux                                 0.0795971 +/- 0.000645839
+ Mesh Index (15, 10, 1)
+   Total Material
+     Flux                                 0.0807334 +/- 0.000739701
+ Mesh Index (16, 10, 1)
+   Total Material
+     Flux                                 0.0808744 +/- 0.000684926
+ Mesh Index (17, 10, 1)
+   Total Material
+     Flux                                 0.0802244 +/- 0.000913199
+ Mesh Index (1, 11, 1)
+   Total Material
+     Flux                                 0.0808322 +/- 0.000850158
+ Mesh Index (2, 11, 1)
+   Total Material
+     Flux                                 0.0793784 +/- 0.000786641
+ Mesh Index (3, 11, 1)
+   Total Material
+     Flux                                 0.0794415 +/- 0.000748621
+ Mesh Index (4, 11, 1)
+   Total Material
+     Flux                                 0.0798712 +/- 0.000624532
+ Mesh Index (5, 11, 1)
+   Total Material
+     Flux                                 0.0800192 +/- 0.000680566
+ Mesh Index (6, 11, 1)
+   Total Material
+     Flux                                 0.0778861 +/- 0.000578432
+ Mesh Index (7, 11, 1)
+   Total Material
+     Flux                                 0.0748298 +/- 0.000640628
+ Mesh Index (8, 11, 1)
+   Total Material
+     Flux                                 0.0722324 +/- 0.000591422
+ Mesh Index (9, 11, 1)
+   Total Material
+     Flux                                 0.068363 +/- 0.000590409
+ Mesh Index (10, 11, 1)
+   Total Material
+     Flux                                 0.0707832 +/- 0.000604812
+ Mesh Index (11, 11, 1)
+   Total Material
+     Flux                                 0.0749822 +/- 0.000677897
+ Mesh Index (12, 11, 1)
+   Total Material
+     Flux                                 0.0770882 +/- 0.000518014
+ Mesh Index (13, 11, 1)
+   Total Material
+     Flux                                 0.0786024 +/- 0.000604602
+ Mesh Index (14, 11, 1)
+   Total Material
+     Flux                                 0.0803086 +/- 0.000540352
+ Mesh Index (15, 11, 1)
+   Total Material
+     Flux                                 0.0810588 +/- 0.000713041
+ Mesh Index (16, 11, 1)
+   Total Material
+     Flux                                 0.0805479 +/- 0.000687279
+ Mesh Index (17, 11, 1)
+   Total Material
+     Flux                                 0.0802412 +/- 0.000753827
+ Mesh Index (1, 12, 1)
+   Total Material
+     Flux                                 0.0786631 +/- 0.000856903
+ Mesh Index (2, 12, 1)
+   Total Material
+     Flux                                 0.0776291 +/- 0.000738185
+ Mesh Index (3, 12, 1)
+   Total Material
+     Flux                                 0.0789588 +/- 0.000796903
+ Mesh Index (4, 12, 1)
+   Total Material
+     Flux                                 0.0785654 +/- 0.00067226
+ Mesh Index (5, 12, 1)
+   Total Material
+     Flux                                 0.0788395 +/- 0.000478068
+ Mesh Index (6, 12, 1)
+   Total Material
+     Flux                                 0.0790059 +/- 0.00057578
+ Mesh Index (7, 12, 1)
+   Total Material
+     Flux                                 0.0783562 +/- 0.000704086
+ Mesh Index (8, 12, 1)
+   Total Material
+     Flux                                 0.0758488 +/- 0.000634772
+ Mesh Index (9, 12, 1)
+   Total Material
+     Flux                                 0.0748249 +/- 0.000722196
+ Mesh Index (10, 12, 1)
+   Total Material
+     Flux                                 0.076223 +/- 0.000722326
+ Mesh Index (11, 12, 1)
+   Total Material
+     Flux                                 0.0774219 +/- 0.000764232
+ Mesh Index (12, 12, 1)
+   Total Material
+     Flux                                 0.0777953 +/- 0.000661705
+ Mesh Index (13, 12, 1)
+   Total Material
+     Flux                                 0.0780375 +/- 0.000672326
+ Mesh Index (14, 12, 1)
+   Total Material
+     Flux                                 0.0785016 +/- 0.000634186
+ Mesh Index (15, 12, 1)
+   Total Material
+     Flux                                 0.078899 +/- 0.000567435
+ Mesh Index (16, 12, 1)
+   Total Material
+     Flux                                 0.0784264 +/- 0.000547808
+ Mesh Index (17, 12, 1)
+   Total Material
+     Flux                                 0.078274 +/- 0.00080835
+ Mesh Index (1, 13, 1)
+   Total Material
+     Flux                                 0.075771 +/- 0.000824248
+ Mesh Index (2, 13, 1)
+   Total Material
+     Flux                                 0.0757255 +/- 0.000781695
+ Mesh Index (3, 13, 1)
+   Total Material
+     Flux                                 0.0768632 +/- 0.000817549
+ Mesh Index (4, 13, 1)
+   Total Material
+     Flux                                 0.0781084 +/- 0.000692438
+ Mesh Index (5, 13, 1)
+   Total Material
+     Flux                                 0.078275 +/- 0.000692587
+ Mesh Index (6, 13, 1)
+   Total Material
+     Flux                                 0.0785881 +/- 0.000700037
+ Mesh Index (7, 13, 1)
+   Total Material
+     Flux                                 0.0790326 +/- 0.000784943
+ Mesh Index (8, 13, 1)
+   Total Material
+     Flux                                 0.078639 +/- 0.000637893
+ Mesh Index (9, 13, 1)
+   Total Material
+     Flux                                 0.0789895 +/- 0.000793129
+ Mesh Index (10, 13, 1)
+   Total Material
+     Flux                                 0.0793505 +/- 0.000807831
+ Mesh Index (11, 13, 1)
+   Total Material
+     Flux                                 0.0793343 +/- 0.000676806
+ Mesh Index (12, 13, 1)
+   Total Material
+     Flux                                 0.0782532 +/- 0.000651954
+ Mesh Index (13, 13, 1)
+   Total Material
+     Flux                                 0.0780754 +/- 0.000694159
+ Mesh Index (14, 13, 1)
+   Total Material
+     Flux                                 0.0770055 +/- 0.000689777
+ Mesh Index (15, 13, 1)
+   Total Material
+     Flux                                 0.0756715 +/- 0.000688854
+ Mesh Index (16, 13, 1)
+   Total Material
+     Flux                                 0.0742335 +/- 0.000568823
+ Mesh Index (17, 13, 1)
+   Total Material
+     Flux                                 0.0745014 +/- 0.000842857
+ Mesh Index (1, 14, 1)
+   Total Material
+     Flux                                 0.070157 +/- 0.000834928
+ Mesh Index (2, 14, 1)
+   Total Material
+     Flux                                 0.0716085 +/- 0.000639217
+ Mesh Index (3, 14, 1)
+   Total Material
+     Flux                                 0.0737227 +/- 0.000769155
+ Mesh Index (4, 14, 1)
+   Total Material
+     Flux                                 0.075161 +/- 0.000725028
+ Mesh Index (5, 14, 1)
+   Total Material
+     Flux                                 0.0775976 +/- 0.000772909
+ Mesh Index (6, 14, 1)
+   Total Material
+     Flux                                 0.0782903 +/- 0.000677497
+ Mesh Index (7, 14, 1)
+   Total Material
+     Flux                                 0.080482 +/- 0.000690084
+ Mesh Index (8, 14, 1)
+   Total Material
+     Flux                                 0.0799221 +/- 0.00069886
+ Mesh Index (9, 14, 1)
+   Total Material
+     Flux                                 0.0793083 +/- 0.000811307
+ Mesh Index (10, 14, 1)
+   Total Material
+     Flux                                 0.0800715 +/- 0.000688344
+ Mesh Index (11, 14, 1)
+   Total Material
+     Flux                                 0.0793455 +/- 0.000600472
+ Mesh Index (12, 14, 1)
+   Total Material
+     Flux                                 0.0782074 +/- 0.000716048
+ Mesh Index (13, 14, 1)
+   Total Material
+     Flux                                 0.0766141 +/- 0.000643744
+ Mesh Index (14, 14, 1)
+   Total Material
+     Flux                                 0.0742938 +/- 0.000686305
+ Mesh Index (15, 14, 1)
+   Total Material
+     Flux                                 0.0710344 +/- 0.000778228
+ Mesh Index (16, 14, 1)
+   Total Material
+     Flux                                 0.0697572 +/- 0.000667226
+ Mesh Index (17, 14, 1)
+   Total Material
+     Flux                                 0.0698129 +/- 0.000720089
+ Mesh Index (1, 15, 1)
+   Total Material
+     Flux                                 0.0625492 +/- 0.000680007
+ Mesh Index (2, 15, 1)
+   Total Material
+     Flux                                 0.0635888 +/- 0.000660149
+ Mesh Index (3, 15, 1)
+   Total Material
+     Flux                                 0.0661502 +/- 0.00070396
+ Mesh Index (4, 15, 1)
+   Total Material
+     Flux                                 0.0728342 +/- 0.000877355
+ Mesh Index (5, 15, 1)
+   Total Material
+     Flux                                 0.0768948 +/- 0.000836127
+ Mesh Index (6, 15, 1)
+   Total Material
+     Flux                                 0.0778388 +/- 0.00073663
+ Mesh Index (7, 15, 1)
+   Total Material
+     Flux                                 0.0800267 +/- 0.000705839
+ Mesh Index (8, 15, 1)
+   Total Material
+     Flux                                 0.081079 +/- 0.000685544
+ Mesh Index (9, 15, 1)
+   Total Material
+     Flux                                 0.0806434 +/- 0.000777598
+ Mesh Index (10, 15, 1)
+   Total Material
+     Flux                                 0.0807479 +/- 0.000682551
+ Mesh Index (11, 15, 1)
+   Total Material
+     Flux                                 0.0790288 +/- 0.00062916
+ Mesh Index (12, 15, 1)
+   Total Material
+     Flux                                 0.0768876 +/- 0.000582815
+ Mesh Index (13, 15, 1)
+   Total Material
+     Flux                                 0.075099 +/- 0.00070237
+ Mesh Index (14, 15, 1)
+   Total Material
+     Flux                                 0.0724394 +/- 0.000747089
+ Mesh Index (15, 15, 1)
+   Total Material
+     Flux                                 0.0640308 +/- 0.000706196
+ Mesh Index (16, 15, 1)
+   Total Material
+     Flux                                 0.0620806 +/- 0.000666966
+ Mesh Index (17, 15, 1)
+   Total Material
+     Flux                                 0.0615159 +/- 0.000701807
+ Mesh Index (1, 16, 1)
+   Total Material
+     Flux                                 0.0592258 +/- 0.000743225
+ Mesh Index (2, 16, 1)
+   Total Material
+     Flux                                 0.0593412 +/- 0.000692237
+ Mesh Index (3, 16, 1)
+   Total Material
+     Flux                                 0.0636919 +/- 0.00075481
+ Mesh Index (4, 16, 1)
+   Total Material
+     Flux                                 0.0712473 +/- 0.000844332
+ Mesh Index (5, 16, 1)
+   Total Material
+     Flux                                 0.0765317 +/- 0.00103762
+ Mesh Index (6, 16, 1)
+   Total Material
+     Flux                                 0.0777489 +/- 0.000880727
+ Mesh Index (7, 16, 1)
+   Total Material
+     Flux                                 0.0797468 +/- 0.000663595
+ Mesh Index (8, 16, 1)
+   Total Material
+     Flux                                 0.0800295 +/- 0.000596455
+ Mesh Index (9, 16, 1)
+   Total Material
+     Flux                                 0.0810711 +/- 0.000706665
+ Mesh Index (10, 16, 1)
+   Total Material
+     Flux                                 0.0806538 +/- 0.000691348
+ Mesh Index (11, 16, 1)
+   Total Material
+     Flux                                 0.0792465 +/- 0.000684285
+ Mesh Index (12, 16, 1)
+   Total Material
+     Flux                                 0.0774294 +/- 0.000769198
+ Mesh Index (13, 16, 1)
+   Total Material
+     Flux                                 0.0737308 +/- 0.000616131
+ Mesh Index (14, 16, 1)
+   Total Material
+     Flux                                 0.0703547 +/- 0.000634592
+ Mesh Index (15, 16, 1)
+   Total Material
+     Flux                                 0.0623533 +/- 0.000677461
+ Mesh Index (16, 16, 1)
+   Total Material
+     Flux                                 0.058707 +/- 0.000723025
+ Mesh Index (17, 16, 1)
+   Total Material
+     Flux                                 0.0579747 +/- 0.000738492
+ Mesh Index (1, 17, 1)
+   Total Material
+     Flux                                 0.0577802 +/- 0.000984492
+ Mesh Index (2, 17, 1)
+   Total Material
+     Flux                                 0.0577337 +/- 0.000715956
+ Mesh Index (3, 17, 1)
+   Total Material
+     Flux                                 0.0630165 +/- 0.000735961
+ Mesh Index (4, 17, 1)
+   Total Material
+     Flux                                 0.0705237 +/- 0.000769496
+ Mesh Index (5, 17, 1)
+   Total Material
+     Flux                                 0.0759422 +/- 0.000823071
+ Mesh Index (6, 17, 1)
+   Total Material
+     Flux                                 0.0784271 +/- 0.000931199
+ Mesh Index (7, 17, 1)
+   Total Material
+     Flux                                 0.0795 +/- 0.00100144
+ Mesh Index (8, 17, 1)
+   Total Material
+     Flux                                 0.0797054 +/- 0.000966043
+ Mesh Index (9, 17, 1)
+   Total Material
+     Flux                                 0.0796438 +/- 0.000729848
+ Mesh Index (10, 17, 1)
+   Total Material
+     Flux                                 0.0792015 +/- 0.000892604
+ Mesh Index (11, 17, 1)
+   Total Material
+     Flux                                 0.0791802 +/- 0.000742264
+ Mesh Index (12, 17, 1)
+   Total Material
+     Flux                                 0.0769732 +/- 0.000980395
+ Mesh Index (13, 17, 1)
+   Total Material
+     Flux                                 0.0744614 +/- 0.000813872
+ Mesh Index (14, 17, 1)
+   Total Material
+     Flux                                 0.0696779 +/- 0.000779947
+ Mesh Index (15, 17, 1)
+   Total Material
+     Flux                                 0.0623098 +/- 0.000777065
+ Mesh Index (16, 17, 1)
+   Total Material
+     Flux                                 0.0582734 +/- 0.000811569
+ Mesh Index (17, 17, 1)
+   Total Material
+     Flux                                 0.0577766 +/- 0.000896301
+ ===================>     TALLY 6: 17X17 POWER MAP     <====================
+
+ Mesh Index (1, 1, 1)
+   Total Material
+     heating                              71367.1 +/- 1917.25
+ Mesh Index (2, 1, 1)
+   Total Material
+     heating                              73204.9 +/- 2452.4
+ Mesh Index (3, 1, 1)
+   Total Material
+     heating                              76877.3 +/- 1872.02
+ Mesh Index (4, 1, 1)
+   Total Material
+     heating                              167377 +/- 5137.23
+ Mesh Index (5, 1, 1)
+   Total Material
+     heating                              202042 +/- 5383.9
+ Mesh Index (6, 1, 1)
+   Total Material
+     heating                              213844 +/- 7023.27
+ Mesh Index (7, 1, 1)
+   Total Material
+     heating                              226393 +/- 7257.94
+ Mesh Index (8, 1, 1)
+   Total Material
+     heating                              229366 +/- 7624.55
+ Mesh Index (9, 1, 1)
+   Total Material
+     heating                              243959 +/- 7025.75
+ Mesh Index (10, 1, 1)
+   Total Material
+     heating                              230815 +/- 6450.69
+ Mesh Index (11, 1, 1)
+   Total Material
+     heating                              222271 +/- 6589.29
+ Mesh Index (12, 1, 1)
+   Total Material
+     heating                              227005 +/- 7126.96
+ Mesh Index (13, 1, 1)
+   Total Material
+     heating                              212099 +/- 4969.03
+ Mesh Index (14, 1, 1)
+   Total Material
+     heating                              181343 +/- 6243.15
+ Mesh Index (15, 1, 1)
+   Total Material
+     heating                              81220.5 +/- 2372.27
+ Mesh Index (16, 1, 1)
+   Total Material
+     heating                              76192.3 +/- 2586.34
+ Mesh Index (17, 1, 1)
+   Total Material
+     heating                              71075.3 +/- 2161.11
+ Mesh Index (1, 2, 1)
+   Total Material
+     heating                              66760.3 +/- 2184.39
+ Mesh Index (2, 2, 1)
+   Total Material
+     heating                              75151.2 +/- 2010.07
+ Mesh Index (3, 2, 1)
+   Total Material
+     heating                              81566.3 +/- 2183.6
+ Mesh Index (4, 2, 1)
+   Total Material
+     heating                              189886 +/- 5456.13
+ Mesh Index (5, 2, 1)
+   Total Material
+     heating                              208012 +/- 5162.13
+ Mesh Index (6, 2, 1)
+   Total Material
+     heating                              214581 +/- 5398.82
+ Mesh Index (7, 2, 1)
+   Total Material
+     heating                              230232 +/- 5656.01
+ Mesh Index (8, 2, 1)
+   Total Material
+     heating                              229723 +/- 5582.76
+ Mesh Index (9, 2, 1)
+   Total Material
+     heating                              242196 +/- 7382.01
+ Mesh Index (10, 2, 1)
+   Total Material
+     heating                              219864 +/- 5546.73
+ Mesh Index (11, 2, 1)
+   Total Material
+     heating                              231514 +/- 5613.64
+ Mesh Index (12, 2, 1)
+   Total Material
+     heating                              223677 +/- 6065.38
+ Mesh Index (13, 2, 1)
+   Total Material
+     heating                              211565 +/- 5660.8
+ Mesh Index (14, 2, 1)
+   Total Material
+     heating                              184689 +/- 4901.32
+ Mesh Index (15, 2, 1)
+   Total Material
+     heating                              83413.5 +/- 2122.91
+ Mesh Index (16, 2, 1)
+   Total Material
+     heating                              75344.1 +/- 2343.98
+ Mesh Index (17, 2, 1)
+   Total Material
+     heating                              73839.3 +/- 2230.63
+ Mesh Index (1, 3, 1)
+   Total Material
+     heating                              77444.5 +/- 2799.56
+ Mesh Index (2, 3, 1)
+   Total Material
+     heating                              77346.9 +/- 1921.2
+ Mesh Index (3, 3, 1)
+   Total Material
+     heating                              90783.2 +/- 3036.77
+ Mesh Index (4, 3, 1)
+   Total Material
+     heating                              182423 +/- 5229.11
+ Mesh Index (5, 3, 1)
+   Total Material
+     heating                              207978 +/- 6253.87
+ Mesh Index (6, 3, 1)
+   Total Material
+     heating                              224639 +/- 6783.49
+ Mesh Index (7, 3, 1)
+   Total Material
+     heating                              220889 +/- 8295.24
+ Mesh Index (8, 3, 1)
+   Total Material
+     heating                              224443 +/- 6089.45
+ Mesh Index (9, 3, 1)
+   Total Material
+     heating                              217847 +/- 6040.63
+ Mesh Index (10, 3, 1)
+   Total Material
+     heating                              223924 +/- 7249.27
+ Mesh Index (11, 3, 1)
+   Total Material
+     heating                              224485 +/- 5582.39
+ Mesh Index (12, 3, 1)
+   Total Material
+     heating                              210782 +/- 5938.23
+ Mesh Index (13, 3, 1)
+   Total Material
+     heating                              215677 +/- 5701.71
+ Mesh Index (14, 3, 1)
+   Total Material
+     heating                              199239 +/- 4915.08
+ Mesh Index (15, 3, 1)
+   Total Material
+     heating                              86914.1 +/- 2402.87
+ Mesh Index (16, 3, 1)
+   Total Material
+     heating                              84343 +/- 2925.3
+ Mesh Index (17, 3, 1)
+   Total Material
+     heating                              82723.7 +/- 2613.49
+ Mesh Index (1, 4, 1)
+   Total Material
+     heating                              173913 +/- 6005.22
+ Mesh Index (2, 4, 1)
+   Total Material
+     heating                              177887 +/- 5126.37
+ Mesh Index (3, 4, 1)
+   Total Material
+     heating                              186414 +/- 4581.69
+ Mesh Index (4, 4, 1)
+   Total Material
+     heating                              199952 +/- 5211.25
+ Mesh Index (5, 4, 1)
+   Total Material
+     heating                              196113 +/- 5768.37
+ Mesh Index (6, 4, 1)
+   Total Material
+     heating                              216004 +/- 5373.46
+ Mesh Index (7, 4, 1)
+   Total Material
+     heating                              218029 +/- 7266.38
+ Mesh Index (8, 4, 1)
+   Total Material
+     heating                              225368 +/- 7214.57
+ Mesh Index (9, 4, 1)
+   Total Material
+     heating                              227277 +/- 5526.42
+ Mesh Index (10, 4, 1)
+   Total Material
+     heating                              224893 +/- 6614.43
+ Mesh Index (11, 4, 1)
+   Total Material
+     heating                              223219 +/- 5715.75
+ Mesh Index (12, 4, 1)
+   Total Material
+     heating                              209163 +/- 6921.66
+ Mesh Index (13, 4, 1)
+   Total Material
+     heating                              214457 +/- 5949.86
+ Mesh Index (14, 4, 1)
+   Total Material
+     heating                              211634 +/- 6684.39
+ Mesh Index (15, 4, 1)
+   Total Material
+     heating                              202136 +/- 5605.11
+ Mesh Index (16, 4, 1)
+   Total Material
+     heating                              198059 +/- 6094.65
+ Mesh Index (17, 4, 1)
+   Total Material
+     heating                              179257 +/- 6467.69
+ Mesh Index (1, 5, 1)
+   Total Material
+     heating                              206505 +/- 8056.48
+ Mesh Index (2, 5, 1)
+   Total Material
+     heating                              205207 +/- 5305.13
+ Mesh Index (3, 5, 1)
+   Total Material
+     heating                              208205 +/- 6998.54
+ Mesh Index (4, 5, 1)
+   Total Material
+     heating                              214951 +/- 6788.2
+ Mesh Index (5, 5, 1)
+   Total Material
+     heating                              206678 +/- 5987.33
+ Mesh Index (6, 5, 1)
+   Total Material
+     heating                              224813 +/- 6854.53
+ Mesh Index (7, 5, 1)
+   Total Material
+     heating                              207139 +/- 6017.52
+ Mesh Index (8, 5, 1)
+   Total Material
+     heating                              212518 +/- 6462.65
+ Mesh Index (9, 5, 1)
+   Total Material
+     heating                              218731 +/- 6524.56
+ Mesh Index (10, 5, 1)
+   Total Material
+     heating                              216599 +/- 5663.08
+ Mesh Index (11, 5, 1)
+   Total Material
+     heating                              211419 +/- 6048.85
+ Mesh Index (12, 5, 1)
+   Total Material
+     heating                              214479 +/- 5419.9
+ Mesh Index (13, 5, 1)
+   Total Material
+     heating                              214617 +/- 6122.41
+ Mesh Index (14, 5, 1)
+   Total Material
+     heating                              210677 +/- 7543.14
+ Mesh Index (15, 5, 1)
+   Total Material
+     heating                              216849 +/- 5765.15
+ Mesh Index (16, 5, 1)
+   Total Material
+     heating                              205618 +/- 6613.86
+ Mesh Index (17, 5, 1)
+   Total Material
+     heating                              208599 +/- 6171.79
+ Mesh Index (1, 6, 1)
+   Total Material
+     heating                              224292 +/- 8125.68
+ Mesh Index (2, 6, 1)
+   Total Material
+     heating                              219903 +/- 5114.54
+ Mesh Index (3, 6, 1)
+   Total Material
+     heating                              214228 +/- 6284.57
+ Mesh Index (4, 6, 1)
+   Total Material
+     heating                              218943 +/- 5567.76
+ Mesh Index (5, 6, 1)
+   Total Material
+     heating                              212477 +/- 5138.75
+ Mesh Index (6, 6, 1)
+   Total Material
+     heating                              223579 +/- 6992.96
+ Mesh Index (7, 6, 1)
+   Total Material
+     heating                              193505 +/- 5411.94
+ Mesh Index (8, 6, 1)
+   Total Material
+     heating                              199404 +/- 5205.15
+ Mesh Index (9, 6, 1)
+   Total Material
+     heating                              197189 +/- 6085.02
+ Mesh Index (10, 6, 1)
+   Total Material
+     heating                              212617 +/- 5933.52
+ Mesh Index (11, 6, 1)
+   Total Material
+     heating                              203539 +/- 5478.38
+ Mesh Index (12, 6, 1)
+   Total Material
+     heating                              215110 +/- 6600.62
+ Mesh Index (13, 6, 1)
+   Total Material
+     heating                              220963 +/- 6161.63
+ Mesh Index (14, 6, 1)
+   Total Material
+     heating                              213627 +/- 5692.7
+ Mesh Index (15, 6, 1)
+   Total Material
+     heating                              219885 +/- 7521.24
+ Mesh Index (16, 6, 1)
+   Total Material
+     heating                              225760 +/- 6510.76
+ Mesh Index (17, 6, 1)
+   Total Material
+     heating                              216327 +/- 7281.5
+ Mesh Index (1, 7, 1)
+   Total Material
+     heating                              212904 +/- 7246.79
+ Mesh Index (2, 7, 1)
+   Total Material
+     heating                              224866 +/- 6035.63
+ Mesh Index (3, 7, 1)
+   Total Material
+     heating                              219227 +/- 6006.83
+ Mesh Index (4, 7, 1)
+   Total Material
+     heating                              220331 +/- 6525.09
+ Mesh Index (5, 7, 1)
+   Total Material
+     heating                              221061 +/- 6618.15
+ Mesh Index (6, 7, 1)
+   Total Material
+     heating                              205085 +/- 5344.37
+ Mesh Index (7, 7, 1)
+   Total Material
+     heating                              192112 +/- 4675.04
+ Mesh Index (8, 7, 1)
+   Total Material
+     heating                              171500 +/- 5858.01
+ Mesh Index (9, 7, 1)
+   Total Material
+     heating                              169789 +/- 6075.59
+ Mesh Index (10, 7, 1)
+   Total Material
+     heating                              185467 +/- 5353.46
+ Mesh Index (11, 7, 1)
+   Total Material
+     heating                              204424 +/- 5994.63
+ Mesh Index (12, 7, 1)
+   Total Material
+     heating                              202768 +/- 5441.1
+ Mesh Index (13, 7, 1)
+   Total Material
+     heating                              221168 +/- 6397.4
+ Mesh Index (14, 7, 1)
+   Total Material
+     heating                              226389 +/- 6432.72
+ Mesh Index (15, 7, 1)
+   Total Material
+     heating                              219850 +/- 6529.59
+ Mesh Index (16, 7, 1)
+   Total Material
+     heating                              235979 +/- 6365.52
+ Mesh Index (17, 7, 1)
+   Total Material
+     heating                              245461 +/- 7841.83
+ Mesh Index (1, 8, 1)
+   Total Material
+     heating                              222643 +/- 6965.06
+ Mesh Index (2, 8, 1)
+   Total Material
+     heating                              234741 +/- 6953.33
+ Mesh Index (3, 8, 1)
+   Total Material
+     heating                              226242 +/- 7393.23
+ Mesh Index (4, 8, 1)
+   Total Material
+     heating                              233575 +/- 6615.55
+ Mesh Index (5, 8, 1)
+   Total Material
+     heating                              210007 +/- 5818.42
+ Mesh Index (6, 8, 1)
+   Total Material
+     heating                              207002 +/- 5317.01
+ Mesh Index (7, 8, 1)
+   Total Material
+     heating                              188781 +/- 4679.74
+ Mesh Index (8, 8, 1)
+   Total Material
+     heating                              140586 +/- 4918.11
+ Mesh Index (9, 8, 1)
+   Total Material
+     heating                              15563.9 +/- 320.958
+ Mesh Index (10, 8, 1)
+   Total Material
+     heating                              142160 +/- 4282.67
+ Mesh Index (11, 8, 1)
+   Total Material
+     heating                              177394 +/- 5360.96
+ Mesh Index (12, 8, 1)
+   Total Material
+     heating                              193848 +/- 5632.25
+ Mesh Index (13, 8, 1)
+   Total Material
+     heating                              207893 +/- 4516.55
+ Mesh Index (14, 8, 1)
+   Total Material
+     heating                              220053 +/- 5710.26
+ Mesh Index (15, 8, 1)
+   Total Material
+     heating                              227753 +/- 6648.49
+ Mesh Index (16, 8, 1)
+   Total Material
+     heating                              220957 +/- 5794.75
+ Mesh Index (17, 8, 1)
+   Total Material
+     heating                              227149 +/- 7256.37
+ Mesh Index (1, 9, 1)
+   Total Material
+     heating                              232404 +/- 5630.23
+ Mesh Index (2, 9, 1)
+   Total Material
+     heating                              235825 +/- 6241.35
+ Mesh Index (3, 9, 1)
+   Total Material
+     heating                              231249 +/- 7332.58
+ Mesh Index (4, 9, 1)
+   Total Material
+     heating                              219490 +/- 6637.9
+ Mesh Index (5, 9, 1)
+   Total Material
+     heating                              216905 +/- 5681.09
+ Mesh Index (6, 9, 1)
+   Total Material
+     heating                              205399 +/- 5573.06
+ Mesh Index (7, 9, 1)
+   Total Material
+     heating                              176766 +/- 5815.41
+ Mesh Index (8, 9, 1)
+   Total Material
+     heating                              15068.5 +/- 282.587
+ Mesh Index (9, 9, 1)
+   Total Material
+     heating                              12375.5 +/- 209.489
+ Mesh Index (10, 9, 1)
+   Total Material
+     heating                              15466.5 +/- 293.726
+ Mesh Index (11, 9, 1)
+   Total Material
+     heating                              172775 +/- 5295.65
+ Mesh Index (12, 9, 1)
+   Total Material
+     heating                              200531 +/- 5135.19
+ Mesh Index (13, 9, 1)
+   Total Material
+     heating                              214780 +/- 8574.86
+ Mesh Index (14, 9, 1)
+   Total Material
+     heating                              224105 +/- 6060.5
+ Mesh Index (15, 9, 1)
+   Total Material
+     heating                              230354 +/- 7916.92
+ Mesh Index (16, 9, 1)
+   Total Material
+     heating                              222557 +/- 7174.44
+ Mesh Index (17, 9, 1)
+   Total Material
+     heating                              239994 +/- 8002.57
+ Mesh Index (1, 10, 1)
+   Total Material
+     heating                              238160 +/- 8163.48
+ Mesh Index (2, 10, 1)
+   Total Material
+     heating                              225157 +/- 6750.55
+ Mesh Index (3, 10, 1)
+   Total Material
+     heating                              222444 +/- 6767.67
+ Mesh Index (4, 10, 1)
+   Total Material
+     heating                              233207 +/- 6227.7
+ Mesh Index (5, 10, 1)
+   Total Material
+     heating                              223928 +/- 7074.91
+ Mesh Index (6, 10, 1)
+   Total Material
+     heating                              197310 +/- 5956.43
+ Mesh Index (7, 10, 1)
+   Total Material
+     heating                              176396 +/- 5031.5
+ Mesh Index (8, 10, 1)
+   Total Material
+     heating                              151783 +/- 5285.16
+ Mesh Index (9, 10, 1)
+   Total Material
+     heating                              15451.5 +/- 296.286
+ Mesh Index (10, 10, 1)
+   Total Material
+     heating                              134901 +/- 4826.46
+ Mesh Index (11, 10, 1)
+   Total Material
+     heating                              179311 +/- 4684.65
+ Mesh Index (12, 10, 1)
+   Total Material
+     heating                              197098 +/- 6690.85
+ Mesh Index (13, 10, 1)
+   Total Material
+     heating                              214537 +/- 6293.19
+ Mesh Index (14, 10, 1)
+   Total Material
+     heating                              218027 +/- 6083.75
+ Mesh Index (15, 10, 1)
+   Total Material
+     heating                              231510 +/- 5427.53
+ Mesh Index (16, 10, 1)
+   Total Material
+     heating                              233317 +/- 7656.87
+ Mesh Index (17, 10, 1)
+   Total Material
+     heating                              235756 +/- 7673.53
+ Mesh Index (1, 11, 1)
+   Total Material
+     heating                              224081 +/- 7176.81
+ Mesh Index (2, 11, 1)
+   Total Material
+     heating                              215564 +/- 6120.47
+ Mesh Index (3, 11, 1)
+   Total Material
+     heating                              219441 +/- 4832.39
+ Mesh Index (4, 11, 1)
+   Total Material
+     heating                              226604 +/- 7044.46
+ Mesh Index (5, 11, 1)
+   Total Material
+     heating                              217905 +/- 6157.76
+ Mesh Index (6, 11, 1)
+   Total Material
+     heating                              209764 +/- 5634.53
+ Mesh Index (7, 11, 1)
+   Total Material
+     heating                              204789 +/- 6881.38
+ Mesh Index (8, 11, 1)
+   Total Material
+     heating                              188076 +/- 6172.47
+ Mesh Index (9, 11, 1)
+   Total Material
+     heating                              164057 +/- 5486.22
+ Mesh Index (10, 11, 1)
+   Total Material
+     heating                              175646 +/- 6597.24
+ Mesh Index (11, 11, 1)
+   Total Material
+     heating                              196668 +/- 5868.02
+ Mesh Index (12, 11, 1)
+   Total Material
+     heating                              214709 +/- 6291.34
+ Mesh Index (13, 11, 1)
+   Total Material
+     heating                              209184 +/- 6091.66
+ Mesh Index (14, 11, 1)
+   Total Material
+     heating                              219360 +/- 6139.5
+ Mesh Index (15, 11, 1)
+   Total Material
+     heating                              224373 +/- 6808.25
+ Mesh Index (16, 11, 1)
+   Total Material
+     heating                              231229 +/- 6261.29
+ Mesh Index (17, 11, 1)
+   Total Material
+     heating                              228285 +/- 6773.73
+ Mesh Index (1, 12, 1)
+   Total Material
+     heating                              214597 +/- 7647.59
+ Mesh Index (2, 12, 1)
+   Total Material
+     heating                              216920 +/- 7033.54
+ Mesh Index (3, 12, 1)
+   Total Material
+     heating                              221007 +/- 5653.88
+ Mesh Index (4, 12, 1)
+   Total Material
+     heating                              221417 +/- 5515.11
+ Mesh Index (5, 12, 1)
+   Total Material
+     heating                              214702 +/- 6040.75
+ Mesh Index (6, 12, 1)
+   Total Material
+     heating                              220986 +/- 6596.27
+ Mesh Index (7, 12, 1)
+   Total Material
+     heating                              216222 +/- 6483.45
+ Mesh Index (8, 12, 1)
+   Total Material
+     heating                              200197 +/- 5969.32
+ Mesh Index (9, 12, 1)
+   Total Material
+     heating                              189956 +/- 5627.97
+ Mesh Index (10, 12, 1)
+   Total Material
+     heating                              195789 +/- 5541.7
+ Mesh Index (11, 12, 1)
+   Total Material
+     heating                              209572 +/- 5740.68
+ Mesh Index (12, 12, 1)
+   Total Material
+     heating                              213383 +/- 6524.23
+ Mesh Index (13, 12, 1)
+   Total Material
+     heating                              221977 +/- 6277.09
+ Mesh Index (14, 12, 1)
+   Total Material
+     heating                              209053 +/- 5895.33
+ Mesh Index (15, 12, 1)
+   Total Material
+     heating                              218712 +/- 5193.5
+ Mesh Index (16, 12, 1)
+   Total Material
+     heating                              225426 +/- 6211.78
+ Mesh Index (17, 12, 1)
+   Total Material
+     heating                              216121 +/- 6761.45
+ Mesh Index (1, 13, 1)
+   Total Material
+     heating                              209995 +/- 6993.54
+ Mesh Index (2, 13, 1)
+   Total Material
+     heating                              212698 +/- 7071.21
+ Mesh Index (3, 13, 1)
+   Total Material
+     heating                              229846 +/- 6627.63
+ Mesh Index (4, 13, 1)
+   Total Material
+     heating                              223335 +/- 6187.68
+ Mesh Index (5, 13, 1)
+   Total Material
+     heating                              214048 +/- 6438.83
+ Mesh Index (6, 13, 1)
+   Total Material
+     heating                              229703 +/- 6125.67
+ Mesh Index (7, 13, 1)
+   Total Material
+     heating                              223465 +/- 6620.14
+ Mesh Index (8, 13, 1)
+   Total Material
+     heating                              214026 +/- 5445.59
+ Mesh Index (9, 13, 1)
+   Total Material
+     heating                              219092 +/- 5433.11
+ Mesh Index (10, 13, 1)
+   Total Material
+     heating                              221033 +/- 6274.95
+ Mesh Index (11, 13, 1)
+   Total Material
+     heating                              227051 +/- 6013.81
+ Mesh Index (12, 13, 1)
+   Total Material
+     heating                              221861 +/- 6503.31
+ Mesh Index (13, 13, 1)
+   Total Material
+     heating                              222328 +/- 6132.92
+ Mesh Index (14, 13, 1)
+   Total Material
+     heating                              221625 +/- 6658.69
+ Mesh Index (15, 13, 1)
+   Total Material
+     heating                              219235 +/- 6995.6
+ Mesh Index (16, 13, 1)
+   Total Material
+     heating                              199394 +/- 4446.93
+ Mesh Index (17, 13, 1)
+   Total Material
+     heating                              208231 +/- 5957.44
+ Mesh Index (1, 14, 1)
+   Total Material
+     heating                              191288 +/- 6068.12
+ Mesh Index (2, 14, 1)
+   Total Material
+     heating                              184275 +/- 5149.1
+ Mesh Index (3, 14, 1)
+   Total Material
+     heating                              194876 +/- 6150.98
+ Mesh Index (4, 14, 1)
+   Total Material
+     heating                              193903 +/- 6191.83
+ Mesh Index (5, 14, 1)
+   Total Material
+     heating                              211040 +/- 5869.19
+ Mesh Index (6, 14, 1)
+   Total Material
+     heating                              210200 +/- 6092.78
+ Mesh Index (7, 14, 1)
+   Total Material
+     heating                              224980 +/- 7240.76
+ Mesh Index (8, 14, 1)
+   Total Material
+     heating                              226619 +/- 4581.45
+ Mesh Index (9, 14, 1)
+   Total Material
+     heating                              214434 +/- 6023.01
+ Mesh Index (10, 14, 1)
+   Total Material
+     heating                              223783 +/- 6841.48
+ Mesh Index (11, 14, 1)
+   Total Material
+     heating                              229248 +/- 5534.35
+ Mesh Index (12, 14, 1)
+   Total Material
+     heating                              218989 +/- 4695.04
+ Mesh Index (13, 14, 1)
+   Total Material
+     heating                              221990 +/- 4853.27
+ Mesh Index (14, 14, 1)
+   Total Material
+     heating                              200193 +/- 6566.77
+ Mesh Index (15, 14, 1)
+   Total Material
+     heating                              182936 +/- 5746.76
+ Mesh Index (16, 14, 1)
+   Total Material
+     heating                              173803 +/- 4843.89
+ Mesh Index (17, 14, 1)
+   Total Material
+     heating                              181529 +/- 6146.9
+ Mesh Index (1, 15, 1)
+   Total Material
+     heating                              79744 +/- 2190.82
+ Mesh Index (2, 15, 1)
+   Total Material
+     heating                              83061.5 +/- 1942.63
+ Mesh Index (3, 15, 1)
+   Total Material
+     heating                              82976.6 +/- 2278.23
+ Mesh Index (4, 15, 1)
+   Total Material
+     heating                              183635 +/- 5543.25
+ Mesh Index (5, 15, 1)
+   Total Material
+     heating                              205428 +/- 7510.71
+ Mesh Index (6, 15, 1)
+   Total Material
+     heating                              214918 +/- 6709.62
+ Mesh Index (7, 15, 1)
+   Total Material
+     heating                              225280 +/- 5941.72
+ Mesh Index (8, 15, 1)
+   Total Material
+     heating                              227410 +/- 6588.02
+ Mesh Index (9, 15, 1)
+   Total Material
+     heating                              221670 +/- 6943.34
+ Mesh Index (10, 15, 1)
+   Total Material
+     heating                              224269 +/- 7278.28
+ Mesh Index (11, 15, 1)
+   Total Material
+     heating                              215645 +/- 6620.15
+ Mesh Index (12, 15, 1)
+   Total Material
+     heating                              214421 +/- 5370.37
+ Mesh Index (13, 15, 1)
+   Total Material
+     heating                              206804 +/- 6732.76
+ Mesh Index (14, 15, 1)
+   Total Material
+     heating                              193843 +/- 5971.61
+ Mesh Index (15, 15, 1)
+   Total Material
+     heating                              85432.2 +/- 2668.49
+ Mesh Index (16, 15, 1)
+   Total Material
+     heating                              79571.8 +/- 2715.19
+ Mesh Index (17, 15, 1)
+   Total Material
+     heating                              79339.6 +/- 2609.68
+ Mesh Index (1, 16, 1)
+   Total Material
+     heating                              72652 +/- 2021.88
+ Mesh Index (2, 16, 1)
+   Total Material
+     heating                              71360 +/- 1842.57
+ Mesh Index (3, 16, 1)
+   Total Material
+     heating                              81386.1 +/- 2938.37
+ Mesh Index (4, 16, 1)
+   Total Material
+     heating                              188981 +/- 4515.23
+ Mesh Index (5, 16, 1)
+   Total Material
+     heating                              214270 +/- 7190.69
+ Mesh Index (6, 16, 1)
+   Total Material
+     heating                              217043 +/- 6789.33
+ Mesh Index (7, 16, 1)
+   Total Material
+     heating                              223268 +/- 6258.73
+ Mesh Index (8, 16, 1)
+   Total Material
+     heating                              222076 +/- 7047.11
+ Mesh Index (9, 16, 1)
+   Total Material
+     heating                              231595 +/- 5958.79
+ Mesh Index (10, 16, 1)
+   Total Material
+     heating                              227395 +/- 6480.46
+ Mesh Index (11, 16, 1)
+   Total Material
+     heating                              225794 +/- 5240.11
+ Mesh Index (12, 16, 1)
+   Total Material
+     heating                              213888 +/- 6280.81
+ Mesh Index (13, 16, 1)
+   Total Material
+     heating                              203175 +/- 6207.61
+ Mesh Index (14, 16, 1)
+   Total Material
+     heating                              181203 +/- 5344.65
+ Mesh Index (15, 16, 1)
+   Total Material
+     heating                              85232.5 +/- 2169.07
+ Mesh Index (16, 16, 1)
+   Total Material
+     heating                              72309.1 +/- 1902.58
+ Mesh Index (17, 16, 1)
+   Total Material
+     heating                              69233.8 +/- 2159.93
+ Mesh Index (1, 17, 1)
+   Total Material
+     heating                              69803.3 +/- 2287.04
+ Mesh Index (2, 17, 1)
+   Total Material
+     heating                              68180.2 +/- 2188.46
+ Mesh Index (3, 17, 1)
+   Total Material
+     heating                              79997.7 +/- 2140.09
+ Mesh Index (4, 17, 1)
+   Total Material
+     heating                              179087 +/- 5193.93
+ Mesh Index (5, 17, 1)
+   Total Material
+     heating                              222482 +/- 6538.5
+ Mesh Index (6, 17, 1)
+   Total Material
+     heating                              221752 +/- 5584.01
+ Mesh Index (7, 17, 1)
+   Total Material
+     heating                              228877 +/- 6978.58
+ Mesh Index (8, 17, 1)
+   Total Material
+     heating                              218874 +/- 6689.81
+ Mesh Index (9, 17, 1)
+   Total Material
+     heating                              219733 +/- 7459.17
+ Mesh Index (10, 17, 1)
+   Total Material
+     heating                              221818 +/- 7077.16
+ Mesh Index (11, 17, 1)
+   Total Material
+     heating                              220414 +/- 5167.28
+ Mesh Index (12, 17, 1)
+   Total Material
+     heating                              203952 +/- 5729.69
+ Mesh Index (13, 17, 1)
+   Total Material
+     heating                              210540 +/- 6084.27
+ Mesh Index (14, 17, 1)
+   Total Material
+     heating                              181377 +/- 6061.11
+ Mesh Index (15, 17, 1)
+   Total Material
+     heating                              80226.7 +/- 2383.88
+ Mesh Index (16, 17, 1)
+   Total Material
+     heating                              72146.5 +/- 2139.84
+ Mesh Index (17, 17, 1)
+   Total Material
+     heating                              69354.2 +/- 2530.45
