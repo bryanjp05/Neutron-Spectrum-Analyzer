@@ -2,11 +2,11 @@
 <settings>
   <run_mode>eigenvalue</run_mode>
   <particles>10000</particles>
-  <batches>50</batches>
-  <inactive>10</inactive>
+  <batches>70</batches>
+  <inactive>20</inactive>
   <source particle="neutron" strength="1.0" type="independent">
-    <space type="box">
-      <parameters>-0.3 -0.3 -0.3 0.3 0.3 0.3</parameters>
+    <space type="fission">
+      <parameters>-15 -15 -10 15 15 10</parameters>
     </space>
   </source>
 </settings>

@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <tallies>
-  <mesh id="2">
+  <mesh id="1">
     <dimension>17 17 1</dimension>
     <lower_left>-10.71 -10.71 -10.0</lower_left>
     <upper_right>10.71 10.71 10.0</upper_right>
   </mesh>
-  <filter id="5" type="cell">
+  <filter id="2" type="cell">
     <bins>4</bins>
   </filter>
-  <filter id="4" type="energy">
+  <filter id="1" type="energy">
     <bins>1e-05 0.001 0.1 1.0 10.0 100.0 1000.0 10000.0 100000.0 1000000.0 10000000.0</bins>
   </filter>
-  <filter id="6" type="mesh">
-    <bins>2</bins>
+  <filter id="3" type="mesh">
+    <bins>1</bins>
   </filter>
-  <tally id="4" name="flux spectrum">
-    <filters>5 4</filters>
+  <tally id="1" name="flux spectrum">
+    <filters>2 1</filters>
     <scores>flux</scores>
   </tally>
-  <tally id="5" name="17x17 flux map">
-    <filters>6</filters>
+  <tally id="2" name="17x17 flux map">
+    <filters>3</filters>
     <scores>flux</scores>
   </tally>
-  <tally id="6" name="17x17 power map">
-    <filters>6</filters>
+  <tally id="3" name="17x17 power map">
+    <filters>3</filters>
     <scores>heating</scores>
   </tally>
 </tallies>

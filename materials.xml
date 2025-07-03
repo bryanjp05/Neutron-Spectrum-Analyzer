@@ -1,37 +1,30 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
-  <material depletable="true" id="1" name="Fuel">
+  <material depletable="true" id="1" name="Fuel" volume="1347.4982041630412">
     <density units="g/cm3" value="10.0"/>
-    <nuclide ao="0.0003166930253944235" name="U234"/>
-    <nuclide ao="0.03543164439454172" name="U235"/>
-    <nuclide ao="0.964089368630351" name="U238"/>
-    <nuclide ao="0.00016229394971280895" name="U236"/>
+    <nuclide ao="0.035" name="U235"/>
+    <nuclide ao="0.965" name="U238"/>
   </material>
   <material id="2" name="Water">
     <density units="g/cm3" value="1.0"/>
-    <nuclide ao="1.99968852" name="H1"/>
-    <nuclide ao="0.00031148" name="H2"/>
-    <nuclide ao="0.9976206" name="O16"/>
-    <nuclide ao="0.000379" name="O17"/>
-    <nuclide ao="0.0020004" name="O18"/>
+    <nuclide ao="2.0" name="H1"/>
+    <nuclide ao="1.0" name="O16"/>
   </material>
   <material id="3" name="Control Rod">
     <density units="g/cm3" value="2.3"/>
-    <nuclide ao="0.1982" name="B10"/>
-    <nuclide ao="0.8018" name="B11"/>
+    <nuclide ao="0.2" name="B10"/>
+    <nuclide ao="0.8" name="B11"/>
   </material>
-  <material depletable="true" id="4" name="Fuel with Gd">
+  <material id="4" name="Reflector">
+    <density units="g/cm3" value="1.7"/>
+    <nuclide ao="0.989" name="C12"/>
+    <nuclide ao="0.011" name="C13"/>
+  </material>
+  <material depletable="true" id="5" name="Fuel with Gd" volume="9.556724852220151">
     <density units="g/cm3" value="10.2"/>
-    <nuclide ao="0.0003008583741247023" name="U234"/>
-    <nuclide ao="0.03366006217481463" name="U235"/>
-    <nuclide ao="0.9158849001988334" name="U238"/>
-    <nuclide ao="0.0001541792522271685" name="U236"/>
-    <nuclide ao="0.0001" name="Gd152"/>
-    <nuclide ao="0.00109" name="Gd154"/>
-    <nuclide ao="0.0074" name="Gd155"/>
-    <nuclide ao="0.010235000000000001" name="Gd156"/>
-    <nuclide ao="0.007825" name="Gd157"/>
-    <nuclide ao="0.01242" name="Gd158"/>
-    <nuclide ao="0.01093" name="Gd160"/>
+    <nuclide ao="0.01" name="Gd155"/>
+    <nuclide ao="0.02" name="Gd157"/>
+    <nuclide ao="0.03325" name="U235"/>
+    <nuclide ao="0.91675" name="U238"/>
   </material>
 </materials>

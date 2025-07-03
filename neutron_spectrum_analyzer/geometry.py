@@ -8,6 +8,7 @@ def create_geometry(materials, pitch=1.26):
     fuel = materials["fuel"]
     moderator = materials["moderator"]
     control_rod = materials["control_rod"]
+    reflector = materials["reflector"]
     ba_cells = create_ba_pin(materials["fuel"], materials["burnable_absorber"], materials["moderator"])
 
     fuel_univ = create_fuel_pin(fuel, moderator, pitch=pitch)
@@ -30,19 +31,44 @@ def create_geometry(materials, pitch=1.26):
          universes.append(row)
     lattice.universes = universes
 
-    # Create bounding surfaces (box) using planes
-    min_x = openmc.XPlane(x0=-pitch * 17 / 2, boundary_type='reflective')
-    max_x = openmc.XPlane(x0= pitch * 17 / 2, boundary_type='reflective')
-    min_y = openmc.YPlane(y0=-pitch * 17 / 2, boundary_type='reflective')
-    max_y = openmc.YPlane(y0= pitch * 17 / 2, boundary_type='reflective')
-    min_z = openmc.ZPlane(z0=-10.0, boundary_type='vacuum')
-    max_z = openmc.ZPlane(z0=10.0, boundary_type='vacuum')
+    # Boundary of the whole geometry
+    reflector_thickness = 10.0
+    half_width = pitch * 17 / 2
 
-    root_region = +min_x & -max_x & +min_y & -max_y & +min_z & -max_z
-    root_cell = openmc.Cell(fill=lattice, region=root_region)
-    root_universe = openmc.Universe(cells=[root_cell])
+    # Outer bounding box (reflective)
+    min_x = openmc.XPlane(x0=-(half_width + reflector_thickness), boundary_type='reflective')
+    max_x = openmc.XPlane(x0=+(half_width + reflector_thickness), boundary_type='reflective')
+    min_y = openmc.YPlane(y0=-(half_width + reflector_thickness), boundary_type='reflective')
+    max_y = openmc.YPlane(y0=+(half_width + reflector_thickness), boundary_type='reflective')
+    min_z = openmc.ZPlane(z0=-10.0, boundary_type='reflective')
+    max_z = openmc.ZPlane(z0=10.0, boundary_type='reflective')
 
+    fuel_min_z = openmc.ZPlane(z0=-10.0, boundary_type='vacuum')
+    fuel_max_z = openmc.ZPlane(z0=+10.0, boundary_type='reflective')
+
+    # Fuel region inside the box (NO boundary types)
+    fuel_region = (
+        +openmc.XPlane(x0=-half_width) &
+        -openmc.XPlane(x0=+half_width) &
+        +openmc.YPlane(y0=-half_width) &
+        -openmc.YPlane(y0=+half_width) &
+        +fuel_min_z &
+        -fuel_max_z
+    )
+    fuel_cell = openmc.Cell(fill=lattice, region=fuel_region)
+
+    # Reflector region between lattice and outer bounding surfaces
+    reflector_region = (
+        +min_x & -max_x &
+        +min_y & -max_y &
+        +min_z & -max_z &
+        ~fuel_region
+    )
+    reflector_cell = openmc.Cell(fill=reflector, region=reflector_region)
+
+    root_universe = openmc.Universe(cells=[fuel_cell, reflector_cell])
     geometry = openmc.Geometry(root_universe)
+
 
     # Extract all fuel cells for tallying later
     fuel_cells = [
@@ -134,7 +160,9 @@ def is_control_rod(i, j):
     return (i, j) in [(8, 8), (8, 7), (8, 9), (7, 8), (9, 8)]
   
 def is_gd_fuel(i, j):
-    return (i < 3 and j < 3) or \
-           (i < 3 and j > 13) or \
-           (i > 13 and j < 3) or \
-           (i > 13 and j > 13)
+    return (
+        (i, j) in [
+            (0, 0), (0, 16), (16, 0), (16, 16),
+            (4, 4), (4, 12), (12, 4), (12, 12)
+        ]
+    )
