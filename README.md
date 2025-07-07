@@ -1,66 +1,78 @@
-# Neutron-Spectrum-Analyzer
-A simulation-based toolkit to compare neutron energy spectra for various advanced reactor types using OpenMC. This project enables visualization and comparison of neutron flux vs. energy across thermal, epithermal, and fast reactor designs.
+# Neutron Spectrum Analyzer
+
+This project simulates a Pressurized Water Reactor (PWR) 17x17 fuel assembly using [OpenMC](https://openmc.org/). It performs neutron transport simulations, depletion calculations, and generates visualizations of neutron flux and power distributions over time.
+
+---
 
 ## Features
 
-- Simulate 1D unit cell models for:
-  - Pressurized Water Reactor (PWR)
-  - High-Temperature Gas-Cooled Reactor (HTGR)
-  - Sodium-cooled Fast Reactor (SFR)
-- Tallies energy-dependent neutron flux across 1 eV to 20 MeV
-- Plots flux spectra and overlays spectral characteristics
-- Includes material definitions for UO2, TRISO, metallic fuels, graphite, sodium, helium
+3D geometry modeling of a 17x17 assembly with:
+- Fuel pins
+- Burnable absorbers
+- Control rods
+- Reflector
+
+Monte Carlo simulation of:
+- Neutron flux spectra
+- Power distributions
+- k-effective depletion over time
+
+Automated export of:
+- Flux and power maps
+- k-effective trends
+- Neutron energy spectra
+- CSV and PNG output for analysis
+
+Modular Python scripts for:
+- Geometry and materials definition
+- Depletion runs
+- Spectrum analysis
+- Time-evolving visualization
 
 ---
 
-## How It Works
+How to Run
 
-Each reactor model builds a simple lattice-based unit cell with appropriate fuel, moderator, and geometry.
-The script runs a Monte Carlo simulation using OpenMC and exports the energy-dependent flux tally.
+1. Create geometry and run depletion:
 
-### Flux tally setup:
-- Mesh tally or cell tally with log energy bins
-- Normalized and plotted using matplotlib
+python neutron_spectrum_analyzer/run_model.py
 
----
+2. Plot k-effective over timeL
 
-## Requirements
+python neutron_spectrum_analyzer/plot_keff_over_time.py
+Generates a PNG plot and CSV with k-effective per depletion step.
 
-- Python 3.9+
-- OpenMC (latest)
-- numpy
-- matplotlib
-- h5py
+3. Analyze and visualize flux maps
 
-Install with:
-```bash
-pip install -r requirements.txt
-```
+python neutron_spectrum_analyzer/plot_flux_over_time.py
+Saves flux maps for each depletion step and exports to CSV.
 
----
+4. Analyze power distribution
 
-## Example Output
+python neutron_spectrum_analyzer/plot_power_over_time.py
+Plots and saves power distribution across the assembly.
 
-Comparative plot of flux spectrum:
-- Thermal (PWR) peaks ~0.025 eV
-- Epithermal (HTGR) flattens out
-- Fast (SFR) peaks > 100 keV
+5. Analyze neutron spectrum
 
----
+python neutron_spectrum_analyzer/flux_spectrum.py
+Exports a CSV and generates a log-log plot of the neutron energy spectrum.
 
-## Goals
 
-- Educational tool for understanding spectrum characteristics
-- Foundation for further reactor design studies (e.g. spectrum shift, Doppler effect)
+Prerequisites
+Python 3.8+
 
----
+OpenMC installed (pip install openmc)
 
-## Contributions
-PRs and forks welcome! You can add new reactor models or tally types.
+HDF5-based cross-section library (e.g., ENDF/B-VIII.0)
 
----
+chain_endfb80_pwr.xml in your project directory
 
-## 📚 References
-- OpenMC documentation: https://docs.openmc.org
-- IAEA TECDOC on neutron spectra classification
-- MIT OpenCourseWare – 22.05 Nuclear Reactor Physics
+Tips
+Depletion chain must be correctly referenced in depletion.py.
+
+Results directory should exist before exporting CSVs.
+
+For performance, adjust particles, batches, and power settings in settings.py and depletion.py.
+
+License
+MIT License

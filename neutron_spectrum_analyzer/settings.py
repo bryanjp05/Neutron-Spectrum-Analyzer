@@ -9,9 +9,9 @@ def create_settings():
 
     # Source
     bounds = [-15, -15, -10, 15, 15, 10]
-    uniform_dist = openmc.stats.Box(bounds[:3], bounds[3:], only_fissionable=True)
+    uniform_dist = openmc.stats.Box(bounds[:3], bounds[3:])
     source = openmc.IndependentSource(space=uniform_dist)
-
     settings.source = source
+
     return settings
 

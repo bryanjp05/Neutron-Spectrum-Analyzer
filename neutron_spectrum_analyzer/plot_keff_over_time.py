@@ -2,7 +2,7 @@ import h5py
 import numpy as np
 import matplotlib.pyplot as plt
 
-with h5py.File("depletion_results.h5", "r") as f:
+with h5py.File("output/depletion_results.h5", "r") as f:
     time = f["time"][:]
     eigenvalues = f["eigenvalues"][:]
 

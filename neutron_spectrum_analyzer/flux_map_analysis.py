@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load statepoint file
-sp = openmc.StatePoint('openmc_simulation_n0.h5')
+sp = openmc.StatePoint('output/openmc_simulation_n0.h5')
 flux_tally = sp.get_tally(name='17x17 flux map')
 flux_data = flux_tally.get_values(scores=['flux']).reshape((17, 17))
 

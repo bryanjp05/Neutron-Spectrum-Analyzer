@@ -2,6 +2,7 @@ import openmc
 import matplotlib.pyplot as plt
 import numpy as np
 import re
+import os
 
 from neutron_spectrum_analyzer.materials import create_materials
 from neutron_spectrum_analyzer.geometry import create_geometry
@@ -10,6 +11,7 @@ from neutron_spectrum_analyzer.tallies import create_tallies
 from neutron_spectrum_analyzer import depletion
 
 if __name__ == "__main__":
+    os.chdir("output")
     materials = create_materials()
     geometry, fuel_cells = create_geometry(materials)
     settings = create_settings()

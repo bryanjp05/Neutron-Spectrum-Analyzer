@@ -12,7 +12,7 @@ os.makedirs("results", exist_ok=True)
 
 # Find and sort all statepoints
 statepoints = sorted(
-    glob.glob("openmc_simulation_n*.h5"),
+    glob.glob("output/openmc_simulation_n*.h5"),
     key=lambda x: int(re.search(r"n(\d+)", x).group(1))
 )
 

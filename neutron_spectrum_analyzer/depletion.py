@@ -1,7 +1,7 @@
 import openmc
 import openmc.deplete
 
-def run_depletion(model, chain_path="chain_endfb80_pwr.xml"):
+def run_depletion(model, chain_path="../input/chain_endfb80_pwr.xml"):
     # Create a depletion operator with the chain file
     operator = openmc.deplete.CoupledOperator(model, chain_file=chain_path)
 
