@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load the statepoint
-sp = openmc.StatePoint('statepoint.50.h5')
+sp = openmc.StatePoint('openmc_simulation_n0.h5')
 
 # Extract the power tally
 power_tally = sp.get_tally(name='17x17 power map')

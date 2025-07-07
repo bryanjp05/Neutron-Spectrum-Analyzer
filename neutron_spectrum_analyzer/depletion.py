@@ -8,7 +8,7 @@ def run_depletion(model, chain_path="chain_endfb80_pwr.xml"):
     # Create an integrator (CECM is a good default)
     integrator = openmc.deplete.CECMIntegrator(
         operator,
-        timesteps=[0.33,0.33,0.33,],     
+        timesteps=[1,1,1],     
         power=[1e8,1e8,1e8],
         timestep_units='d',
     )

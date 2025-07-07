@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-def analyze_flux_spectrum(statepoint_path='statepoint.50.h5', tally_name='flux spectrum'):
+def analyze_flux_spectrum(statepoint_path='openmc_simulation_n0.h5', tally_name='flux spectrum'):
     sp = openmc.StatePoint(statepoint_path)
     tally = sp.get_tally(name=tally_name)
     flux = tally.get_values(scores=['flux']).flatten()
